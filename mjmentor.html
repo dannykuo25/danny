@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+<title>Danny Kuo</title>
+<meta name="description" content="Thoughts, reviews and ideas since 1999."/>
+<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+<link rel="shortcut icon" href="#">
+<link rel="stylesheet" type="text/css" href="assets/css/screen.css"/>
+<link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Roboto:400,300italic,300,400italic,700,700italic|Playfair+Display:400,700,400italic,700italic"/>
+</head>
+<body class="post-template">
+<div class="site-wrapper">
+	<nav class="main-nav overlay clearfix">
+	<!-- <a class="blog-logo" href="index.html"><img src="assets/img/logo.png" alt="Fashion Critiques"/></a> -->
+	<ul id="menu">
+		<li class="nav-home nav-current" role="presentation"><a href="index.html">Projects</a></li>
+		<!-- <li class="nav-article-example" role="presentation"><a href="article.html">Blog</a></li> -->
+		<li class="nav-about-us" role="presentation"><a href="about.html">About</a></li>
+		<span class="socialheader">
+		<a href="https://www.linkedin.com/in/dannyckuo/"><span class='symbol'>circlelinkedin</span></a>
+		<a href="mailto:danny.kuo25@gmail.com"><span class='symbol'>circleemail</span></a>
+		</span>
+	</ul>
+	</nav>
+	<header class="main-header post-head " style="background-image: url(assets/img/mahjong-banner.jpg)">
+	<div class="vertical">
+		<div class="main-header-content inner">
+			<h1 class="post-title">Majhong Mentor</h1>
+			<div class="entry-title-divider">
+				<span></span><span></span><span></span>
+			</div>
+			<section class="post-meta">
+			<time class="post-date" datetime="2018-12-20">20 December 2018</time> | Augmented Reality | Object Detection
+			</section>
+		</div>
+	</div>
+	</header>
+	<main id="content" class="content" role="main">
+	<div class="wraps">
+		<img src="assets/img/shadow.png" class="wrapshadow">
+		<article class="post featured">
+		<section class="post-content">
+		<p>
+			Develop APP for Epson AR smart glasses to help Mahjong players identify cards and make strategic decisions. This project was completed when I was an software engineering intern intern at Institute for Information Industry.
+		</p>
+		<iframe height="275" width="500" src="https://www.youtube.com/embed/7ONB-xjIVqg"></iframe>
+		<img src="assets/img/mjmentor-process.png" width="600">
+		<br/>
+		<p>
+			The overall process is as follows:
+		</p>
+		<p>
+			<strong>"Preprocessing"</strong>: Implement image processing methods in C++ to crop pictures into individual images for card predictions.
+			<br/>
+			<strong>"classification_by_tensorflow"</strong>: Preclassify training sample to accelerate training efficiency.
+			<br/>
+			<strong>"Increase_Learn"</strong>: Training model in an incremental method.
+			<br/>
+			<strong>"Prediction"</strong>: Use Python and Azure Custom Vision service to apply machine learning multiclass classification models, i.e. for training images and making predictions.
+			<br/>
+			<strong>"Ting_hu"</strong>: Write winning algorithms for Mahjong game in C++.
+			<br/>
+			https://github.com/dannykuo25/Majhong-Mentor
+		</p>
+		<a href="https://github.com/dannykuo25/Majhong-Mentor"><strong>Github link</strong></a>
+		<p>
+		</p>
+		</section>
+		</article>
+	</div>
+	</main>
+	<div class="clearfix">
+	</div>
+	<aside class="read-next">
+	<a class="read-next-story " style="background-image: url(http://s3.amazonaws.com/caymandemo/wp-content/uploads/sites/10/2015/09/10175658/j6-520x779-520x600.jpg)" href="mlagents.html">
+	<section class="post">
+	<h2>Unity ML-Agents</h2>
+	<p>
+		A demonstration of Unity Machine Learning Agents package implementation - Push Block&hellip;
+	</p>
+	</section>
+	</a>
+	<a class="read-next-story prev " style="background-image: url(http://s3.amazonaws.com/caymandemo/wp-content/uploads/sites/10/2015/09/10175658/j7-520x780-520x600.jpg)" href="bvw.html">
+	<section class="post">
+	<h2>Builing Virtual Worlds</h2>
+	<p>
+		Build interactive virtual worlds with 4 other students from various art, sound, and programming disciplines on rotating teams&hellip;
+	</p>
+	</section>
+	</a>
+	</aside>
+	<footer class="site-footer clearfix">
+	<a href="#top" id="back-to-top" class="back-top"></a>
+	<div class="text-center">
+		<a href="index.html">Danny Kuo</a> &copy; 2020<br/>
+	</div>
+	</footer>
+</div>
+<script type="text/javascript" src="https://code.jquery.com/jquery-1.11.3.min.js"></script>
+<script type="text/javascript" src="assets/js/masonry.min.js"></script>
+<script type="text/javascript" src="assets/js/jquery.fitvids.js"></script>
+<script type="text/javascript" src="assets/js/index.js"></script>
+</body>
+</html>
