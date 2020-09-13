@@ -1085,7 +1085,7 @@ h2.widget-title {
 /* Keep images centered,and allow images wider than the main text column to break out. */
 .post-content img {
 	display:block;
-	max-width:126%;
+	/* max-width:126%; */
 	height:auto;
 	padding:0.6em 0;
 	/* Centers an image by (1) pushing its left edge to the center of its container and (2) shifting the entire image in the opposite direction by half its own width. Works for images that are larger than their containers. */
@@ -2263,4 +2263,14 @@ div#preloader {
 	line-height:30px;
 	padding:7px 12px;
 	height: 44px;
+}
+
+.night-bg-img {
+	position: absolute;
+    top: -1px;
+    left: -1px;
+    max-width: 200%;
+    zoom: 1;
+    width: 1214px;
+    height: 1000px;
 }
